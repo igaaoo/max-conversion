@@ -1,3 +1,36 @@
-body {
-  background: black;
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
+
+.header {
+  background: #214d72;
+  margin: -4px auto;
+  border-top: 3px solid #f7c232;
+}
+
+header h1 {
+  font-family: 'Inconsolata', monospace;
+  font-size: 40px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 1%;
+}
+
+.options {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.options h2 {
+  width: 30%;
+  background-color: #50bfc3;
+  display: inline-block;
+  margin: 20vh 5%;
+  padding: 50px 0;
+  border-radius: 20px;
+  border: 5px solid #214d72;
+  font-family: Sans-serif;
+}
+
+.options h2:hover {
+  background-color: #214d72;
+  border: 5px solid #50bfc3;
 }
