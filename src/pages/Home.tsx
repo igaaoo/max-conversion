@@ -1,5 +1,7 @@
 import '../styles/Home.css'
 import { useNavigate } from 'react-router-dom'
+import BinaryImg from '../images/binaryImage.png'
+import MorseImg from '../images/morseImage.png'
 
 export function Home() {
   const navigate = useNavigate()
@@ -18,14 +20,27 @@ export function Home() {
         <h1>Max Conversion</h1>
       </header>
 
-      <div className="options">
-        <h2 onClick={goMorse()}>
-          Morse <br /> --. --- -..
-        </h2>
-        <h2 onClick={goBinary()}>
-          Binary <br /> 01100001
-        </h2>
-      </div>
+      <section>
+        {/* Botões opções */}
+        <div className="options">
+          <img
+            src={BinaryImg}
+            alt="Binary Button Image"
+            title="Binary Button"
+            onClick={goBinary()}
+          />
+          <img
+            src={MorseImg}
+            alt="Morse Button Image"
+            title="Morse Button"
+            onClick={goMorse()}
+          />
+        </div>
+      </section>
+
+      <footer>
+        <p>1.0.0</p>
+      </footer>
     </body>
   )
 }
