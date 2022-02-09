@@ -8,7 +8,6 @@
 This project addresses the creation of routes and components.</p>
 
 <h3> Página Inicial: </h3>
-![image](https://user-images.githubusercontent.com/88206626/153308898-63e8cbc9-a7af-4713-b29d-7878112f0648.png)
-
+<img src="https://user-images.githubusercontent.com/88206626/153308898-63e8cbc9-a7af-4713-b29d-7878112f0648.png">
 <h3> Página para conversão: </h3>
 ![image](https://user-images.githubusercontent.com/88206626/153309627-c7f9b095-5720-4d25-80ad-26e7f65d130b.png)
