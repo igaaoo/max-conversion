@@ -1,4 +1,4 @@
-# max-conversion
+# 🔄 max-conversion
 
 <h2>Projeto criado para iniciar nos estudos de React e Typescript </h2>
  <p>Basic project to gain knowledge in react</p>
