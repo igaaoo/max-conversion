@@ -11,7 +11,7 @@ import '../src/App.css'
 
 export function AppRoutes() {
   return (
-    <div>
+    <>
       <Router>
         <Routes>
           <Route path="/" element={<Navigate to="/home" replace />} />
@@ -25,6 +25,6 @@ export function AppRoutes() {
           <Route path="*" element={<Navigate to="/home" replace />} />
         </Routes>
       </Router>
-    </div>
+    </>
   )
 }

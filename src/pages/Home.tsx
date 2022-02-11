@@ -7,11 +7,11 @@ export function Home() {
   const navigate = useNavigate()
 
   function goMorse() {
-    return () => navigate('/morse', { replace: true })
+    navigate('/morse', { replace: true })
   }
 
   function goBinary() {
-    return () => navigate('/binary', { replace: true })
+    navigate('/binary', { replace: true })
   }
 
   return (
@@ -27,13 +27,13 @@ export function Home() {
             src={BinaryImg}
             alt="Binary Button Image"
             title="Binary Button"
-            onClick={goBinary()}
+            onClick={goBinary}
           />
           <img
             src={MorseImg}
             alt="Morse Button Image"
             title="Morse Button"
-            onClick={goMorse()}
+            onClick={goMorse}
           />
         </div>
       </section>
