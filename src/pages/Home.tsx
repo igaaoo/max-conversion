@@ -1,4 +1,5 @@
 import '../styles/Home.css'
+
 import { useNavigate } from 'react-router-dom'
 import BinaryImg from '../images/binaryImage.png'
 import MorseImg from '../images/morseImage.png'
