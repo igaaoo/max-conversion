@@ -1,32 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
 
 .setor {
-  margin: 0 auto;
+  margin: 1vw auto;
 
-  width: 650px;
-  height: 250px;
+  width: 60vw;
+  height: 40vh;
 
   background: #242a38;
 
   border-radius: 15px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.setor h2 {
+.setorTxt {
   padding: 20px 0;
   margin: 0 20px;
   font-family: 'Inconsolata', monospace;
   display: inline-block;
+  font-size: 3vw;
+}
+
+.languageType {
+  display: flex;
+  background-color: #c4c4c4;
+  margin-right: 4%;
+  float: right;
+  font-family: 'Inconsolata', monospace;
+  padding: 1vh 2vw;
+  color: #242a38;
+  border-radius: 10px;
+  margin-top: 2vh;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 2.5vw;
 }
 
 .setor textarea {
   padding: 20px 20px;
-  margin: 0 20px;
+  margin: 0 20px 20px 20px;
   font-family: 'Inconsolata', monospace;
-  width: 565px;
+  width: 56vw;
   background: #c4c4c4;
   border-radius: 15px;
   border: 1px solid #c4c4c4;
-  height: 50%;
+  height: 60%;
   resize: none;
 }
 
@@ -36,12 +52,12 @@
   align-items: center;
   justify-content: center;
   display: flex;
-  gap: 30px;
+  gap: 25px;
 }
 
 .buttons button {
-  width: 153px;
-  height: 64px;
+  width: 15vw;
+  height: 10vh;
 
   background: #242a38;
   border: 10px solid #242a38;
@@ -49,7 +65,7 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   color: whitesmoke;
 
-  font-size: 30px;
+  font-size: 3vw;
 
   font-family: 'Inconsolata', monospace;
 }
