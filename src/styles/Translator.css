@@ -54,13 +54,37 @@
   display: flex;
   gap: 25px;
 }
-
-.buttons button {
-  width: 15vw;
-  height: 10vh;
+.backButton {
+  float: left;
+  margin-left: 1vw;
+  width: 5vw;
+  height: 3vw;
 
   background: #242a38;
-  border: 10px solid #242a38;
+  border: 1vw solid #242a38;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: whitesmoke;
+
+  font-size: 1vw;
+
+  font-family: 'Inconsolata', monospace;
+}
+
+.backButton:hover {
+  background: #c4c4c4;
+  border: 10px solid #c4c4c4;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #242a38;
+}
+
+.buttons button {
+  width: 13vw;
+  height: 5vw;
+
+  background: #242a38;
+  border: 1vw solid #242a38;
   border-radius: 10px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   color: whitesmoke;
