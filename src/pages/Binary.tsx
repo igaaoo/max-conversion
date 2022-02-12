@@ -62,7 +62,6 @@ export function Binary() {
             onClick={() => {
               changeLanguage()
             }}
-            autoFocus
           >
             Swap
           </button>

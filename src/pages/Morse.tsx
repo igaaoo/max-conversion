@@ -62,7 +62,6 @@ export function Morse() {
             onClick={() => {
               changeLanguage()
             }}
-            autoFocus
           >
             Swap
           </button>
