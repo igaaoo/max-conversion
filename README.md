@@ -8,11 +8,11 @@
 This project addresses the creation of routes and components.</p>
 
 <h2> Você pode acessor o projeto no link abaixo: </h2>
-<p> You can acess the project in the link above </p>
-<a> max-conversion.vercel.app </a>
+<p> You can acess the project in the link above  <br/>
+<a> max-conversion.vercel.app </a> </p>
 
-<h3> Página Inicial: </h3>
+<h2> Página Inicial: </h2>
 <img src="https://user-images.githubusercontent.com/88206626/153308898-63e8cbc9-a7af-4713-b29d-7878112f0648.png">
 </br>
-<h3> Página para conversão: </h3>
+<h2> Página para conversão: </h2>
 <img src="https://user-images.githubusercontent.com/88206626/153654529-5b96d7cf-af44-45a6-b995-467ddc31f404.png">
