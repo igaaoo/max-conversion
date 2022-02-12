@@ -1,4 +1,4 @@
-import '../styles/Home.css'
+import '../Styles/Home.css'
 
 import { useNavigate } from 'react-router-dom'
 import BinaryImg from '../images/binaryImage.png'
